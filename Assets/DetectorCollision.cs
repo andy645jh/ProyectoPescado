@@ -8,7 +8,7 @@ namespace Elkin.Nemo
 
 		void OnTriggerEnter(Collider col)
 		{
-			Debug.Log ("Colision: " + col.gameObject.name);
+			//Debug.Log ("Colision: " + col.gameObject.name);
 		}
 	}
 }
