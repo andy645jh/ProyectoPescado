@@ -5,10 +5,12 @@ namespace Elkin.Nemo
 {
 	public class Shoot : MonoBehaviour
 	{
+
 		public int amount=50;
 		public float latency=0.05f;
 		public GameObject bullet =null;
 		public bool isAutomatic = false;
+		//public bool shootLeft = false;
 
 		private float _time = 0;
 		private Stack _listBullets;
